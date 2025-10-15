@@ -1,0 +1,86 @@
+/* Second.css */
+
+.second-section {
+  transition: all 0.3s ease-in-out;
+}
+
+/* For tablets (width ≤ 1024px) */
+@media (max-width: 1080px) {
+  .second-section {
+    height: auto; /* let it expand naturally */
+    padding-bottom: 50px;
+  }
+
+  .second-section > div:nth-child(1) {
+    flex-direction: column;
+    height: auto;
+    gap: 30px;
+  }
+
+   .second-section > div:nth-child(1) > div {
+  height: 150px;
+  width: 350px;
+}
+
+  .second-section > div:nth-child(3) {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .second-section > div:nth-child(3) > div {
+    width: 40% !important;
+    height: 300px !important;
+  }
+}
+
+/* For mobile (width ≤ 768px) */
+@media (max-width: 768px) {
+  .second-section {
+    height: auto;
+    display: flex;
+    flex-direction:column;
+    gap: 50px;
+    padding: 30px 0;
+  }
+
+  .second-section > div:nth-child(1),
+  .second-section > div:nth-child(3) {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .second-section > div:nth-child(1) > div {
+  height: 150px;
+  width: 350px;
+}
+
+  .second-section > div:nth-child(3) > div {
+    width: 80% !important;
+    height: 250px !important;
+  }
+
+  .second-section h3 {
+    font-size: 16px !important;
+  }
+
+  .second-section h5 {
+    font-size: 22px !important;
+  }
+}
+
+/* For very small screens (≤ 480px) */
+@media (max-width: 480px) {
+  .second-section {
+    padding: 20px 0;
+  }
+
+  .second-section > div:nth-child(3) > div {
+    width: 90% !important;
+    height: 220px !important;
+  }
+
+  .second-section h3 {
+    font-size: 14px !important;
+  }
+}
