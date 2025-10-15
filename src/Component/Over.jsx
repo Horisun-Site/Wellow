@@ -37,7 +37,7 @@ const Over = () => {
   ];
 
   return (
-    <div className="bg-[#0f1112] flex flex-col items-center justify-center py-10 px-4">
+    <div className="bg-[#15171a] flex flex-col items-center justify-center py-10 px-4">
       <div
         className="
         grid 
