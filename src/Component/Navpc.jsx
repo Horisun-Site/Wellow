@@ -285,7 +285,7 @@ const Navpc = () => {
             {socialIcons.map((icon, i) => (
               <div
                 key={i}
-                className="h-[50px] w-[50px] flex items-center justify-center rounded-full bg-red-600 transition-all duration-300"
+                className="h-[50px] w-[50px] flex items-center justify-center rounded-full bg-red-300 transition-all duration-300"
                 onMouseEnter={() => icon.setMove(true)}
                 onMouseLeave={() => icon.setMove(false)}
               >
