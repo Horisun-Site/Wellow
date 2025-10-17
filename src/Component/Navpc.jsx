@@ -245,14 +245,14 @@ const Navpc = () => {
           {menuOpen ? (
             <X
               color="red"
-              size={40}
+              size={35}
               onClick={() => setMenuOpen(false)}
               className="cursor-pointer"
             />
           ) : (
             <Menu
-              color="green"
-              size={40}
+              color="white"
+              size={35}
               onClick={() => setMenuOpen(true)}
               className="cursor-pointer"
             />
@@ -285,7 +285,7 @@ const Navpc = () => {
             {socialIcons.map((icon, i) => (
               <div
                 key={i}
-                className="h-[50px] w-[50px] flex items-center justify-center rounded-full bg-[#010103] transition-all duration-300"
+                className="h-[50px] w-[50px] flex items-center justify-center rounded-full bg-cyan-400 transition-all duration-300"
                 onMouseEnter={() => icon.setMove(true)}
                 onMouseLeave={() => icon.setMove(false)}
               >
