@@ -11,7 +11,7 @@ const Veil = () => {
     if (inView && !hasAnimated) setHasAnimated(true);
     
   return (
-    <div className="relative bg-black text-white overflow-hidden min-h-[auto] flex flex-col justify-center items-center">
+    <div className="relative bg-black text-white overflow-hidden min-h-[70vh] flex flex-col justify-center items-center">
       <video
         className="absolute inset-0 w-full h-full object-cover z-0"
         src={video}

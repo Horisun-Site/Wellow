@@ -10,7 +10,7 @@ import tire from "../assets/tire.png";
 
 const Third = () => {
   return (
-    <section className="relative bg-black text-white overflow-hidden min-h-screen flex flex-col justify-center items-center">
+    <section className="relative bg-black text-white overflow-hidden min-h-screen flex flex-col justify-center gap-[50px] items-center">
       {/* Background Video */}
       <video
         className="absolute inset-0 w-full h-full object-cover z-0"
@@ -38,7 +38,7 @@ const Third = () => {
         {/* Cards Section */}
         <div className="flex flex-col gap-10 sm:gap-12 w-full">
           {/* Row 1 */}
-          <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-8">
+          <div className="flex flex-col sm:flex-row  justify-center items-center gap-8">
             <Caller
               image={react}
               text="React & Tailwind"
@@ -60,7 +60,7 @@ const Third = () => {
           </div>
 
           {/* Row 2 */}
-          <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-8">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-8">
             <Caller
               image={hacker}
               text="Security"

@@ -1,27 +1,3 @@
-// import React from "react";
-
-// const Section = () => {
-//   return (
-//     <div className='h-screen transition-all duration-300  bg-[url("https://xtratheme.com/elementor/business-2/wp-content/uploads/sites/18/2018/01/slider1-1.jpg")]  hover:bg-[url("https://xtratheme.com/elementor/business-2/wp-content/uploads/sites/18/2017/08/slider1-1-1.jpg")] flex items-center justify-center  bg-no-repeat bg-cover'>
-//       <div className="h-[50%] w-[40%] mr-[50%] flex flex-col justify-center">
-//         <div>
-//           <h1 className="text-[36px] font-bold text-[#4d61ff] ">
-//             WE ARE EXPERT IN
-//           </h1>
-//         </div>
-
-//         <div className=" flex flex-col">
-//           <h1 className="text-white text-[96px] font-thin">BUSINESS</h1>
-//           <h1 className="text-white text-[96px] font-thin">SOLUTIONS</h1>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Section;
-
-
 import React from "react";
 
 const Section = () => {

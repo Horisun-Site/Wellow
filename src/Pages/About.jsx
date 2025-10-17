@@ -7,12 +7,14 @@ import Veil from '../Component/Veil'
 import Over from '../Component/Over'
 import Spider from '../Component/Spider'
 import Cruze from '../Component/Cruze'
+import Logo from '../Component/Logo'
 
 
 const About = () => {
   return (
     <div>
       <Navpc/>
+      <Logo/>
       <Cruze/>
       <Veil/>
       <Spider/>
