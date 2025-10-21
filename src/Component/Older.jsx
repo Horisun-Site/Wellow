@@ -36,7 +36,7 @@ const Older = () => {
             </h3>
           </div>
 
-          <button className="h-[50px] w-[200px] rounded-[60px] bg-[#2294f2] hover:cursor-pointer text-white hover:text-[#2294f2] hover:bg-white font-bold text-[18px] flex items-center justify-center">
+          <button className="h-[50px] w-[200px] rounded-[60px] mb-[20px] bg-[#2294f2] hover:cursor-pointer text-white hover:text-[#2294f2] hover:bg-white font-bold text-[18px] flex items-center justify-center">
             <div className="w-[25%] h-[100%] rounded-[100%] flex items-center justify-center">
               <img className="h-[70%] w-[70%]" src={like} alt="" />
             </div>

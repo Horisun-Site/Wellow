@@ -40,7 +40,7 @@ const Age = () => {
         <h1 className="text-[28px] sm:text-[32px] md:text-[35px] font-light">
           Plan to
         </h1>
-        <h1 className="text-[28px] sm:text-[32px] md:text-[35px] italic font-bold">
+        <h1 className="text-[25px] sm:text-[32px] md:text-[35px] italic font-bold">
           Start a Business ?
         </h1>
       </div>
