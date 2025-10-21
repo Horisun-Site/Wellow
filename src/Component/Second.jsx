@@ -9,7 +9,7 @@ import "./Second.css"
 
 const Second = () => {
   return (
-    <div className='second-section h-[120vh] bg-[#15171a]'>
+    <div className='second-section h-[120vh] relative bg-[#15171a]'>
       <div className='h-[20%] flex items-center justify-center gap-[20px]'>
         <div className='h-[85%] w-[25%] bg-[#1b1e21] mb-[8%] rounded-[20px] gap-[20px] border-b-3 border-transparent hover:border-b-[#00bfff] transition-all duration-300  flex items-center justify-center '>
           <div className='h-[65px] w-[65px] flex items-center bg-[#4d61ff] justify-center rounded-t-[50%] rounded-bl-[50%] '>

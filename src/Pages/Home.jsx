@@ -10,13 +10,14 @@ import Count from "../Component/Count";
 import Over from "../Component/Over";
 import Lover from "../Component/Lover";
 import Bottom from "../Component/Bottom";
+import Pest from "../Component/Pest";
 
 const Home = () => {
   
   return (
     <div className="overflow-hidden">
       <Navpc/>
-      <Section/>
+      <Pest/>
       <Second/>
       <Third/>
       <Spider/>
